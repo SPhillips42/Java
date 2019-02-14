@@ -1,0 +1,13 @@
+
+public class savings extends Account {
+
+	public savings(String newDescription) {
+		super(newDescription);
+		// TODO Auto-generated constructor stub
+	}
+
+	public savings() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

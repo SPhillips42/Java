@@ -1,0 +1,21 @@
+package BankingApp;
+public class Account {
+private static int nextId = 1;
+
+private int id;
+private double balance;
+private String description;
+
+public int getId() {return id;}
+
+public Account(String newDescription) {
+	this();
+	this.description = newDescription;
+	
+}
+public Account() {
+	id = nextId++;
+	balance = 0;
+	description = "New Account"
+}
+}
